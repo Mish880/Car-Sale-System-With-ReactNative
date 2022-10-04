@@ -11,7 +11,7 @@ const Loginscreen = () => {
              
              <View style={styles.inputfields}>
               <TextInput style={styles.textinput} placeholder="User Name" keyboardType="text" />
-              <TextInput style = {styles.textinput} placeholder="Passwoed" returnKeyType='go' secureTextEntry autoCorrect={false}
+              <TextInput style = {styles.textinput} placeholder="Password" returnKeyType='go' secureTextEntry autoCorrect={false}
 
 />
 </View>
