@@ -3,12 +3,14 @@ import React from 'react';
 import Loginform from './screen/Loginform/loginscreen'
 import Signupform from './screen/Signupform/signupform'
 import Customerform from './screen/Customerform/customerform'
+import Vehicleform from './screen/Vehicleform/vehicleform'
+
 
 
 const App = () => {
     return (
        <View>
-             <Customerform/>
+             <Vehicleform/>
        </View>
     );
 };
