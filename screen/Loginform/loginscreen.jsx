@@ -8,8 +8,7 @@ const Loginscreen = () => {
       
       <View>
              <Text style={styles.text}>LOGIN FORM</Text>
-             
-             <View style={styles.inputfields}>
+              <View style={styles.inputfields}>
               <TextInput style={styles.textinput} placeholder="User Name" keyboardType="text" />
               <TextInput style = {styles.textinput} placeholder="Password" returnKeyType='go' secureTextEntry autoCorrect={false}
 
