@@ -15,7 +15,7 @@ const signupform=()=>{
              <TextInput style={styles.textinput} placeholder ="Vehicle Number" keyboardType="text"/>
         
            <TouchableOpacity name="Regbutton" style={styles.Rbutton}>
-                <Text style={styles.input}>Register</Text>
+                <Text style={styles.inputtextbtn}>Register</Text>
            </TouchableOpacity>
         
         </View>
@@ -34,6 +34,45 @@ const styles = StyleSheet.create({
     fontSize:30
   },
 
+   container:{
+      marginTop:20,
+      alignItems:'center',
+      justifyContent:'center',
+   },
 
+   textinput:{
+      height: 50,
+      marginTop:25,
+      marginLeft:'15%',
+      borderRadius:30,
+      borderWidth: 1,
+      padding:10,
+      width:280
+   },
+
+   Rbutton:{
+       width:'50%',
+       marginTop:5,
+       fontSize:20,
+       backgroundColor:"black",
+       height:50,
+       alignItems:'center',
+       justifyContent:'center',
+       marginTop:'6%',
+       marginLeft:'23%',
+       borderRadius:100
+   },
+
+   inputtextbtn:{
+       color:'white',
+       textAlign:'center',
+       fontWeight:'bold',
+   },
+
+   image:{
+      width:'100%',
+      height:'100%',
+      resizeMode:'cover',
+   },
 });
 export default signupform;
