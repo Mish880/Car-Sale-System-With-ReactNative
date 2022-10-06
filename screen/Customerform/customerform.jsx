@@ -17,6 +17,7 @@ const customerform = () => {
              <Text style={styles.cusbuttonText}>Confrim</Text>
              </TouchableOpacity>
              
+             <Image style={styles.image} source={require('../Customerform/images/Cus.jpg')} />
               
         </View>
      );
@@ -70,10 +71,12 @@ const styles = StyleSheet.create({
      },
 
      image:{
-        width:'100%',
-        height:'100%',
-        resizeMode:'cover',
-     },
+      width:'100%',
+      height:'40%',
+      resizeMode:'cover',
+      marginTop:10,
+      
+   },
 });
 
 export default customerform;

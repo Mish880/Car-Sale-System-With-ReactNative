@@ -10,7 +10,7 @@ import Vehicleform from './screen/Vehicleform/vehicleform'
 const App = () => {
     return (
        <View>
-              <Signupform/>
+              <Loginform/>
        </View>
     );
 };

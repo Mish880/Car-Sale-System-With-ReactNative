@@ -15,6 +15,9 @@ const vehicleform = () => {
               <TouchableOpacity name="Vbutton" style={styles.buttonV}>
                   <Text style={styles.buttontext}>Vehicle Input</Text>
               </TouchableOpacity>
+
+              <Image style={styles.image} source={require('../Vehicleform/images/Veh.jpg')} />
+
          </View>
      );
 };
@@ -66,10 +69,13 @@ const styles = StyleSheet.create({
      },
 
      image:{
-        width:'100%',
-        height:'100%',
-        resizeMode:'cover',
-     },
+      
+      width:'100%',
+      height:'40%',
+      resizeMode:'cover',
+      marginTop:10,
+      
+   },
 
 });
 
