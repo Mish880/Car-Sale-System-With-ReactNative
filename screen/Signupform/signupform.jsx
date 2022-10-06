@@ -17,6 +17,8 @@ const signupform=()=>{
            <TouchableOpacity name="Regbutton" style={styles.Rbutton}>
                 <Text style={styles.inputtextbtn}>Register</Text>
            </TouchableOpacity>
+
+           <Image style={styles.image} source={require('../Signupform/images/RONE.jpg')} /> 
         
         </View>
      );
@@ -71,8 +73,10 @@ const styles = StyleSheet.create({
 
    image:{
       width:'100%',
-      height:'100%',
+      height:'30%',
       resizeMode:'cover',
+      marginTop:10,
+      
    },
 });
 export default signupform;
