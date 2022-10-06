@@ -29,12 +29,13 @@ const Loginscreen = () => {
 const styles = StyleSheet.create({
    
   textinput: {
-      height:50,
-      margintop:25,
-      borderRadius:30,
-      borderWidth: 1,
-      padding: 10,
-      width:280
+    height: 50,
+    marginTop:25,
+    marginLeft:'2%',
+    borderRadius:30,
+    borderWidth: 1,
+    padding:10,
+    width:280
   },
 
   tinylogo:{
@@ -54,13 +55,14 @@ const styles = StyleSheet.create({
       justifyContent:'center',
       alignItems:'center',
       color:'black',
-      fontSize:30
+      fontSize:30,
     },
 
     inputfields:{
         justifyContent:'center',
         textAlign:'center',
-        marginLeft:78
+        marginLeft:78,
+        margintop: 30,
     },
 
     buttonfield:{
@@ -70,7 +72,7 @@ const styles = StyleSheet.create({
        backgroundColor:"black",
        height:40,
        margin:78,
-       marginLeft:105,
+       marginLeft:120,
        alignItems:'center',
        justifyContent:'center',
        marginTop:'3%',
