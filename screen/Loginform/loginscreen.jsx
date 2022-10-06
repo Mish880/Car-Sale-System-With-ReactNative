@@ -7,7 +7,9 @@ const Loginscreen = () => {
     return (
       
       <View>
-             <Text style={styles.text}>LOGIN FORM</Text>
+             
+              <Image style={styles.image} source={require('../Loginform/images/Logo.png')} />  
+              <Text style={styles.text}>LOGIN FORM</Text>
               <View style={styles.inputfields}>
               <TextInput style={styles.textinput} placeholder="User Name" keyboardType="text" />
               <TextInput style = {styles.textinput} placeholder="Password" returnKeyType='go' secureTextEntry autoCorrect={false}
@@ -58,7 +60,7 @@ const styles = StyleSheet.create({
     inputfields:{
         justifyContent:'center',
         textAlign:'center',
-        marginLeft:50
+        marginLeft:78
     },
 
     buttonfield:{
@@ -68,7 +70,7 @@ const styles = StyleSheet.create({
        backgroundColor:"black",
        height:40,
        margin:78,
-       
+       marginLeft:105,
        alignItems:'center',
        justifyContent:'center',
        marginTop:'3%',
@@ -80,6 +82,14 @@ const styles = StyleSheet.create({
       textAlign:'center',
       fontWeight:'bold',
     },
+
+    image:{
+      marginTop:30,
+      width:'100%',
+      height:'50%',
+      justifyContent:'center',
+      autoCorrect:'cover'
+  },
 });
 
 export default Loginscreen;
