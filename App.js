@@ -4,6 +4,7 @@ import Loginform from './screen/Loginform/loginscreen'
 import Signupform from './screen/Signupform/signupform'
 import Customerform from './screen/Customerform/customerform'
 import Vehicleform from './screen/Vehicleform/vehicleform'
+import ImageUploadfrom from './screen/ImageUploadform/imageupload'
 
 
 
