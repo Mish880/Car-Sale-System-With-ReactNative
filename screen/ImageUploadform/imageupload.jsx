@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+/*import React, {useState} from "react";
 import { Text, View,TextInput,StyleSheet,TouchableOpacity} from 'react-native';
 import {useTheme} from 'react-native-paper';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
@@ -292,4 +292,4 @@ const imageupload = () => {
             paddingLeft: 10,
             color: '#05375a',
           },
-    }); 
+    });  */
