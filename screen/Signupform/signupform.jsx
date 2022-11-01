@@ -26,6 +26,7 @@ const signupform=()=>{
 
 };
 const styles = StyleSheet.create({
+
     
    Rtext: {
     frontWeight:'bold',
@@ -76,6 +77,7 @@ const styles = StyleSheet.create({
       height:'30%',
       resizeMode:'cover',
       marginTop:10,
+      borderTopRightRadius:200,
       
    },
 });

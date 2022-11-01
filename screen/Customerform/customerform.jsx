@@ -75,6 +75,7 @@ const styles = StyleSheet.create({
       height:'40%',
       resizeMode:'cover',
       marginTop:10,
+      borderTopRightRadius:200,
       
    },
 });

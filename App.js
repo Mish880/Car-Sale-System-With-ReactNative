@@ -11,7 +11,7 @@ import ImageUploadfrom from './screen/ImageUploadform/imageupload'
 const App = () => {
     return (
        <View>
-              <Vehicleform/>
+              <Signupform/>
        </View>
     );
 };
